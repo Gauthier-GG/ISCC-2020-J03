@@ -1,0 +1,62 @@
+.titre{
+    display: flex;
+        flex-direction: row;
+    align-items: center;
+        display: flex;
+        flex-direction: column;
+}
+
+.poste {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+align-items: left;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -110px;
+}
+
+
+.Menu h2 {
+    text-align: center;
+    position: relative;
+    top: -110px;
+}
+
+.Menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: -110px;
+}
+
+.Menu li {
+    display: inline;
+    list-style: none;
+}
+
+.Menu a {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profil {
+   margin-right: 20%;
+   margin-left: 10%;
+}
+
+.competences {
+    
+}

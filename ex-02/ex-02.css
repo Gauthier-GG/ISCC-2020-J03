@@ -1,5 +1,8 @@
-.main {
+body {
     background-color: aliceblue;
+}
+
+.main {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -55,4 +58,12 @@ blockquote {
 
 .right {
     flex-basis: 33%;
+}
+
+.l1 {
+    color: green;
+}
+
+.l2 {
+    color: greenyellow;
 }
