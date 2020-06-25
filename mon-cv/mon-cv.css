@@ -16,17 +16,17 @@
     flex-direction: row;
 align-items: left;
     border: black 1px solid;
-    display: flex;
     flex-direction: column;
     position: relative;
-    top: -110px;
+    bottom: 6.5em;
+    margin: 0 2%;
 }
 
 
 .Menu h2 {
     text-align: center;
     position: relative;
-    top: -110px;
+    bottom: 4.5em;
 }
 
 .Menu ul {
@@ -34,7 +34,8 @@ align-items: left;
     margin: 0;
     text-align: center;
     position: relative;
-    top: -110px;
+    bottom: 7em;
+    left: 0.9em;
 }
 
 .Menu li {
@@ -44,19 +45,45 @@ align-items: left;
 
 .Menu a {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 1.7em;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    position: relative;
+    bottom: 5em;
 }
 
 .profil {
-   margin-right: 20%;
-   margin-left: 10%;
+  margin: 0 10%;
 }
 
 .competences {
-    
+    margin-right: 10%;
+}
+
+.interets {
+    margin: 0 4%;
+    position: relative;
+    bottom: 1em;
+}
+/*mon cv experiences */
+
+.experiences {
+    margin: 0 4%;
+    position: relative;
+    bottom: 5em;
+}
+
+.coordonnees {
+    text-align: center;
+    position: relative;
+    top: 2em;
+}
+
+.coordonnees li {
+    display: inline;
+    list-style: none;
+    margin: 0 10%;
 }
